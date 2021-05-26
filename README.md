@@ -1,12 +1,14 @@
-# ROS_UNO
+# CONEXIÓN ROS - ARDUINO(Arduino como Nodo)
 
-## DESCRIPTION
+## INTRODUCCIÓN
 
 
-This package contains ROS nodes from A to H wich post and subscribe different type of variables including Bool, Int16, FLoat32, Char and String.
-Finally, there is a Node with a serial comunication between ROS and Arduno for real world implementation.
+Este paquete contiene nodos ROS desde la A hasta la H, que publican y suscriben diferentes tipos de variables (Bool, Int16, FLoat32, Char y String) para, posteriormente, comunicarse con arduino, el cual está usado como un nodo y simular una implementación real de un caso en particular.
 
-(H -> ARDUINO, ARDUINO -> A), these ROS nodes are intended to use a Fuzzy logic controller to consider 3 signals and make a decision for a final actuator.
+   --> B --> E -->
+A  --> C --> F --> H --> arduino -|
+^  --> D --> G -->                |
+|---------------------------------|
 
 ## NODES
 
